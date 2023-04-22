@@ -17,7 +17,7 @@ namespace Virtual_Assistant
         {
             var service = new OpenAIService(new OpenAiOptions
             {
-                ApiKey = "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"
+                ApiKey = "Your Secret-Key Here"
             });
 
             service.SetDefaultModelId(Models.ChatGpt3_5Turbo);
